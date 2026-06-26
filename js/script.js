@@ -1,3 +1,39 @@
+const navToggle = document.getElementById("nav-toggle");
+const navDrawer = document.getElementById("nav-drawer");
+const navOverlay = document.getElementById("nav-overlay");
+
+function openNav() {
+  navDrawer.classList.add("is-open");
+  navOverlay.classList.add("is-open");
+  navToggle.setAttribute("aria-expanded", "true");
+  navToggle.setAttribute("aria-label", "Fechar menu");
+  document.body.classList.add("nav-open");
+}
+
+function closeNav() {
+  navDrawer.classList.remove("is-open");
+  navOverlay.classList.remove("is-open");
+  navToggle.setAttribute("aria-expanded", "false");
+  navToggle.setAttribute("aria-label", "Abrir menu");
+  document.body.classList.remove("nav-open");
+}
+
+if (navToggle && navDrawer && navOverlay) {
+  navToggle.addEventListener("click", () => {
+    navToggle.getAttribute("aria-expanded") === "true" ? closeNav() : openNav();
+  });
+
+  navOverlay.addEventListener("click", closeNav);
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeNav();
+  });
+
+  navDrawer.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", closeNav);
+  });
+}
+
 const ticker = document.querySelector(".ticker-track");
 const typingTarget = document.querySelector(".hero-typing");
 
