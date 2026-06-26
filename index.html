@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; script-src 'self'; object-src 'none';" />
+    <meta
+      name="description"
+      content="Portfólio profissional de desenvolvedor fullstack sênior com foco em backend."
+    />
+    <title>sebastian_portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-grid"></div>
+    <header class="navbar">
+      <a class="brand" href="#home" aria-label="Ir para o início">
+        <span class="brand-sign">$</span>
+        <span class="brand-name">sebastian_portifolio</span>
+      </a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#about">SOBRE</a>
+        <a href="#skills">HABILIDADES</a>
+        <a href="#projects">PROJETOS</a>
+        <a href="#experience">EXPERIÊNCIAS</a>
+        <a href="#contact">CONTATO</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section-shell" id="about">
+        <div class="hero-copy">
+          <div class="status-line monospace">
+            <span class="status-item"><i class="dot dot-live"></i> DISPONÍVEL PARA CONTRATAÇÃO</span>
+            <span class="status-item"><i class="dot dot-bright"></i> RECIFE, BRASIL</span>
+          </div>
+
+          <p class="section-kicker monospace">// HELLO, WORLD —</p>
+          <h1 class="hero-title">
+            <span class="hero-first">Sebastian</span>
+            <span class="hero-last">Nascimento</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span class="hero-accent-line"></span>
+            <p class="monospace" aria-live="polite">
+              <span class="hero-typing">SENIOR BACKEND DEVELOPER</span><span class="cursor">|</span>
+            </p>
+          </div>
+
+          <p class="hero-bio">
+            Engenheiro de software com experiência em Java e Spring Boot no desenvolvimento de
+            aplicações corporativas de alta complexidade. Atuação em microsserviços, APIs RESTful,
+            integrações com bancos relacionais, CI/CD e cloud Azure, com foco em arquitetura de
+            software, segurança e boas práticas.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary monospace" href="assets/docs/Sebastian Nascimento.pdf" download>⬇ DOWNLOAD CV</a>
+            <a class="btn btn-ghost monospace" href="#contact">FALE COMIGO ↓</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="portrait-frame">
+            <img src="assets/images/profile_sebas.png" alt="Foto de perfil de Sebastian Nascimento" />
+            <span class="corner corner-tl"></span>
+            <span class="corner corner-tr"></span>
+            <span class="corner corner-bl"></span>
+            <span class="corner corner-br"></span>
+            <figcaption class="portrait-labels monospace">
+              <span>ID_001</span>
+              <span class="portrait-rec">● REC</span>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="stats-bar section-shell" aria-label="Estatísticas">
+        <article class="stat-card">
+          <strong>4+</strong>
+          <span class="monospace">ANOS DE EXPERIÊNCIA</span>
+        </article>
+        <article class="stat-card">
+          <strong>20+</strong>
+          <span class="monospace">PROJETOS ENTREGUES</span>
+        </article>
+        <article class="stat-card">
+          <strong>7+</strong>
+          <span class="monospace">TIMES MENTORADOS</span>
+        </article>
+        <article class="stat-card">
+          <strong>99.95%</strong>
+          <span class="monospace">UPTIME MÉDIO</span>
+        </article>
+      </section>
+
+      <section class="ticker" aria-label="Tecnologias em destaque">
+        <div class="ticker-track monospace">
+          <span>Java</span><span>×</span><span>C#</span><span>×</span><span>TypeScript</span><span>×</span><span>SQL</span><span>×</span><span>Python</span><span>×</span><span>Spring Boot</span><span>×</span><span>Spring Cloud</span><span>×</span><span>.NET 8</span><span>×</span><span>ASP.NET Core</span><span>×</span><span>Kafka</span><span>×</span><span>RabbitMQ</span><span>×</span><span>N8N</span><span>×</span><span>Claude</span><span>×</span><span>Copilot</span><span>×</span><span>PostgreSQL</span><span>×</span><span>Redis</span><span>×</span><span>Docker</span><span>×</span><span>Kubernetes</span><span>×</span><span>Observability</span><span>×</span>
+          <span>Java</span><span>×</span><span>C#</span><span>×</span><span>TypeScript</span><span>×</span><span>SQL</span><span>×</span><span>Python</span><span>×</span><span>Spring Boot</span><span>×</span><span>Spring Cloud</span><span>×</span><span>.NET 8</span><span>×</span><span>ASP.NET Core</span><span>×</span><span>Kafka</span><span>×</span><span>RabbitMQ</span><span>×</span><span>N8N</span><span>×</span><span>Claude</span><span>×</span><span>Copilot</span><span>×</span><span>PostgreSQL</span><span>×</span><span>Redis</span><span>×</span><span>Docker</span><span>×</span><span>Kubernetes</span><span>×</span><span>Observability</span><span>×</span>
+        </div>
+      </section>
+
+      <section class="section-shell skills-section" id="skills">
+        <div class="section-head split-head">
+          <div>
+            <p class="section-kicker monospace">[ SESSÃO ]</p>
+            <p class="section-description">
+              Stack orientado a backend com foco em Java, Spring Boot, APIs corporativas, cloud,
+              mensageria e qualidade de entrega.
+            </p>
+          </div>
+          <div class="section-title-wrap">
+            <h2 class="section-title">// Skills &amp; Stack</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">01</span></div>
+            <h3>Linguagens principais</h3>
+            <ul>
+              <li><span>›</span> Java</li>
+              <li><span>›</span> C#</li>
+              <li><span>›</span> JavaScript</li>
+              <li><span>›</span> TypeScript</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">02</span></div>
+            <h3>Frameworks Backend</h3>
+            <ul>
+              <li><span>›</span> Spring Boot</li>
+              <li><span>›</span> Spring Cloud</li>
+              <li><span>›</span> ASP.NET Core</li>
+              <li><span>›</span> .NET</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">03</span></div>
+            <h3>Arquitetura &amp; Padrões</h3>
+            <ul>
+              <li><span>›</span> Microsserviços</li>
+              <li><span>›</span> DDD</li>
+              <li><span>›</span> Clean Architecture</li>
+              <li><span>›</span> Event-Driven</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">04</span></div>
+            <h3>Bancos de Dados</h3>
+            <ul>
+              <li><span>›</span> PostgreSQL</li>
+              <li><span>›</span> SQL Server</li>
+              <li><span>›</span> MySQL</li>
+              <li><span>›</span> MongoDB</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">05</span></div>
+            <h3>Cloud &amp; DevOps</h3>
+            <ul>
+              <li><span>›</span> Docker</li>
+              <li><span>›</span> Kubernetes</li>
+              <li><span>›</span> AWS</li>
+              <li><span>›</span> Azure</li>
+              <li><span>›</span> CI/CD</li>
+              <li><span>›</span> WebLogic</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">06</span></div>
+            <h3>Mensageria &amp; Streaming</h3>
+            <ul>
+              <li><span>›</span> Kafka</li>
+              <li><span>›</span> RabbitMQ</li>
+              <li><span>›</span> REST APIs</li>
+              <li><span>›</span> JWT</li>
+              <li><span>›</span> N8N</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">07</span></div>
+            <h3>Frontend</h3>
+            <ul>
+              <li><span>›</span> React</li>
+              <li><span>›</span> Angular</li>
+              <li><span>›</span> TypeScript</li>
+              <li><span>›</span> TailwindCSS</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <div class="skill-meta"><span class="skill-icon"></span><span class="monospace">08</span></div>
+            <h3>Qualidade</h3>
+            <ul>
+              <li><span>›</span> Testes automatizados</li>
+              <li><span>›</span> Observabilidade</li>
+              <li><span>›</span> Code review</li>
+              <li><span>›</span> Scrum</li>
+              <li><span>›</span> Copilot</li>
+              <li><span>›</span> Claude</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell projects-section" id="projects">
+        <div class="section-head projects-head">
+          <div class="projects-label-wrap">
+            <p class="section-kicker monospace">// TRABALHOS SELECIONADOS</p>
+            <h2 class="section-title projects-title">Projects<span class="blue-dot">.</span></h2>
+          </div>
+          <p class="section-description projects-description">
+            Soluções focadas em backend corporativo, automação, integrações e produtos que exigem
+            previsibilidade, performance e operação confiável.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <span class="project-index monospace">/01</span>
+            <img src="assets/images/project-placeholder.svg" alt="Screenshot do projeto 1" />
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>WhatsApp Automation Hub</h3>
+                <span class="monospace">2026</span>
+              </div>
+              <p>Solução com bots para Teams e WhatsApp, integrações com API oficial da Meta e automação com IA para atendimento.</p>
+              <div class="tech-tags">
+                <span>PYTHON</span><span>N8N</span><span>LLM</span><span>WHATSAPP API</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noreferrer">⑃ REPO</a>
+                <a href="https://example.com" target="_blank" rel="noreferrer">LIVE DEMO ↗</a>
+              </div>
+            </div>
+            <span class="corner corner-tl"></span><span class="corner corner-tr"></span><span class="corner corner-bl"></span><span class="corner corner-br"></span>
+          </article>
+
+          <article class="project-card">
+            <span class="project-index monospace">/02</span>
+            <img src="assets/images/project-placeholder.svg" alt="Screenshot do projeto 2" />
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Azure Backend Suite</h3>
+                <span class="monospace">2025</span>
+              </div>
+              <p>Aplicações corporativas em C# .NET com cloud Azure, pipelines CI/CD e evolução contínua de serviços RESTful.</p>
+              <div class="tech-tags">
+                <span>C#</span><span>.NET</span><span>AZURE</span><span>CI/CD</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noreferrer">⑃ REPO</a>
+                <a href="https://example.com" target="_blank" rel="noreferrer">LIVE DEMO ↗</a>
+              </div>
+            </div>
+            <span class="corner corner-tl"></span><span class="corner corner-tr"></span><span class="corner corner-bl"></span><span class="corner corner-br"></span>
+          </article>
+
+          <article class="project-card">
+            <span class="project-index monospace">/03</span>
+            <img src="assets/images/project-placeholder.svg" alt="Screenshot do projeto 3" />
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>React Service Portal</h3>
+                <span class="monospace">2024</span>
+              </div>
+              <p>Interfaces responsivas com React e TailwindCSS para operações, automações e jornadas de suporte.</p>
+              <div class="tech-tags">
+                <span>REACT</span><span>ANGULAR</span><span>TYPESCRIPT</span><span>TAILWINDCSS</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noreferrer">⑃ REPO</a>
+                <a href="https://example.com" target="_blank" rel="noreferrer">LIVE DEMO ↗</a>
+              </div>
+            </div>
+            <span class="corner corner-tl"></span><span class="corner corner-tr"></span><span class="corner corner-bl"></span><span class="corner corner-br"></span>
+          </article>
+
+          <article class="project-card">
+            <span class="project-index monospace">/04</span>
+            <img src="assets/images/project-placeholder.svg" alt="Screenshot do projeto 4" />
+            <div class="project-body">
+              <div class="project-title-row">
+                <h3>Enterprise Integration Layer</h3>
+                <span class="monospace">2023</span>
+              </div>
+              <p>Backends corporativos com integrações a bancos relacionais, APIs RESTful, JWT e boas práticas de clean code.</p>
+              <div class="tech-tags">
+                <span>JAVA</span><span>SPRING BOOT</span><span>SQL SERVER</span><span>POSTGRESQL</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noreferrer">⑃ REPO</a>
+                <a href="https://example.com" target="_blank" rel="noreferrer">LIVE DEMO ↗</a>
+              </div>
+            </div>
+            <span class="corner corner-tl"></span><span class="corner corner-tr"></span><span class="corner corner-bl"></span><span class="corner corner-br"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell experience-section" id="experience">
+        <div class="experience-intro">
+          <p class="section-kicker monospace">// TRAJETÓRIA PROFISSIONAL</p>
+          <h2 class="section-title experience-title">Experience<span class="blue-dot">.</span></h2>
+          <p class="section-description">
+            Liderança técnica com foco em backend, estruturação de times, decisões de arquitetura e
+            entregas com alta confiabilidade operacional.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-topline">
+                <h3>Consultor Java Sênior</h3>
+                <span class="monospace">02/2026 - Presente</span>
+              </div>
+              <div class="timeline-company monospace">[Deloitte] <span>·</span> Recife / Brasil</div>
+              <ul>
+                <li>— Desenvolvimento de aplicações backend em Java para sistemas corporativos de alta complexidade.</li>
+                <li>— Evolução e migração de versão do Java e bibliotecas associadas.</li>
+                <li>— Projeção e manutenção de APIs RESTful com foco em escalabilidade, segurança e boas práticas.</li>
+              </ul>
+              <div class="tech-tags timeline-tags">
+                <span>JAVA</span><span>SPRING BOOT</span><span>REST APIs</span><span>SQL</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-topline">
+                <h3>Desenvolvedor Full Stack Sênior</h3>
+                <span class="monospace">06/2025 - Presente</span>
+              </div>
+              <div class="timeline-company monospace">[Cuia Tech] <span>·</span> Freelancer / Consultoria</div>
+              <ul>
+                <li>— Liderança técnica e desenvolvimento de chatbots para Teams e WhatsApp com Python, N8N e LLMs.</li>
+                <li>— Criação de bot de WhatsApp com API oficial da Meta e integração com plataforma web.</li>
+                <li>— Sustentação de aplicações em C# .NET na cloud Azure com definição de pipelines CI/CD.</li>
+              </ul>
+              <div class="tech-tags timeline-tags">
+                <span>PYTHON</span><span>N8N</span><span>LLM</span><span>AZURE</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-topline">
+                <h3>Desenvolvedor Full Stack</h3>
+                <span class="monospace">06/2025 - 02/2026</span>
+              </div>
+              <div class="timeline-company monospace">[Avanade] <span>·</span> Brasil</div>
+              <ul>
+                <li>— Atuação em desenvolvimento full stack com C# .NET e React.</li>
+                <li>— Evolução de serviços RESTful e integração com SQL Server, MySQL, PostgreSQL e MongoDB.</li>
+                <li>— Trabalho com Azure, pipelines CI/CD e monitoramento.</li>
+              </ul>
+              <div class="tech-tags timeline-tags">
+                <span>C#</span><span>.NET</span><span>REACT</span><span>AZURE</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-topline">
+                <h3>Desenvolvedor Full Stack</h3>
+                <span class="monospace">01/2025 - 05/2025</span>
+              </div>
+              <div class="timeline-company monospace">[Connectabil] <span>·</span> Brasil</div>
+              <ul>
+                <li>— Migração do backend de Node.js para Golang, com ganhos de performance e escalabilidade.</li>
+                <li>— Construção de interfaces responsivas com React e TailwindCSS.</li>
+                <li>— Automação com Python, LangChain e OpenAI para interações assistidas por IA.</li>
+              </ul>
+              <div class="tech-tags timeline-tags">
+                <span>GOLANG</span><span>REACT</span><span>PYTHON</span><span>OPENAI</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <div class="timeline-topline">
+                <h3>Desenvolvedor Full Stack</h3>
+                <span class="monospace">01/2024 - 10/2024</span>
+              </div>
+              <div class="timeline-company monospace">[Tegra] <span>·</span> Brasil</div>
+              <ul>
+                <li>— Desenvolvimento de APIs com Node.js, NestJS e Express, incluindo integração com WhatsApp.</li>
+                <li>— Implementação de testes automatizados com Jest e otimização de consultas PostgreSQL.</li>
+                <li>— Deploy com Docker em AWS e colaboração com equipes ágeis.</li>
+              </ul>
+              <div class="tech-tags timeline-tags">
+                <span>NODE.JS</span><span>NESTJS</span><span>POSTGRESQL</span><span>AWS</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact">
+        <div class="section-head contact-head">
+          <div>
+            <p class="section-kicker monospace">// LET'S TALK</p>
+            <h2 class="contact-title">
+              <span>Vamos</span>
+              <span>construir algo.</span>
+            </h2>
+          </div>
+          <p class="section-description contact-description">
+            Aberto para posições sênior, consultoria técnica, liderança de backend e projetos em que
+            confiabilidade, escala e clareza de arquitetura importam desde o início.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <article class="contact-card">
+            <span class="contact-icon">⌁</span>
+            <span class="contact-arrow">↗</span>
+            <p class="monospace">EMAIL</p>
+            <a class="contact-value" id="contact-email" href="#" data-e="c2ViYXN0aWFuZGV2bmFzY2ltZW50b0BnbWFpbC5jb20="></a>
+          </article>
+          <article class="contact-card">
+            <span class="contact-icon">⌁</span>
+            <span class="contact-arrow">↗</span>
+            <p class="monospace">TELEFONE</p>
+            <a class="contact-value" id="contact-phone" href="#" target="_blank" rel="noreferrer" data-p="aHR0cHM6Ly93YS5tZS81NTExOTY5MTk2MjQ3" data-t="KzU1ICgxMSkgOTY5MTktNjI0Nw=="></a>
+          </article>
+          <a class="contact-card contact-card--link" href="https://www.linkedin.com/in/devsebasnascimento/" target="_blank" rel="noreferrer">
+            <span class="contact-icon">⌁</span>
+            <span class="contact-arrow">↗</span>
+            <p class="monospace">LINKEDIN</p>
+            <span class="contact-value">linkedin.com/in/devsebasnascimento</span>
+          </a>
+        </div>
+
+        <div class="contact-footer">
+          <div class="document-copy">
+              <p class="monospace footer-kicker">PREFERE O DOCUMENTO?</p>
+            <p>Baixe meu currículo completo.</p>
+          </div>
+          <div class="hero-actions footer-actions">
+            <a class="btn btn-primary monospace" href="assets/docs/Sebastian Nascimento.pdf" download>⬇ DOWNLOAD CV (PDF)</a>
+            <a class="btn btn-ghost monospace" href="https://github.com/sebsnascimentodev" target="_blank" rel="noreferrer">⑃ GITHUB</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Placeholder de screenshot de projeto técnico">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101010" />
+      <stop offset="1" stop-color="#070707" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171717" />
+      <stop offset="1" stop-color="#101010" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)" />
+  <g opacity="0.12" stroke="#ffffff" stroke-width="1">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200" />
+    <path d="M120 0V720M240 0V720M360 0V720M480 0V720M600 0V720M720 0V720M840 0V720M960 0V720M1080 0V720" />
+  </g>
+  <rect x="72" y="72" width="640" height="576" rx="4" fill="url(#panel)" stroke="#2a2a2a" />
+  <rect x="748" y="72" width="380" height="576" rx="4" fill="#0f0f0f" stroke="#2a2a2a" />
+  <rect x="118" y="120" width="180" height="22" rx="11" fill="#2563eb" opacity="0.8" />
+  <rect x="118" y="170" width="510" height="14" rx="7" fill="#2a2a2a" />
+  <rect x="118" y="206" width="460" height="14" rx="7" fill="#202020" />
+  <rect x="118" y="242" width="490" height="14" rx="7" fill="#202020" />
+  <rect x="118" y="278" width="420" height="14" rx="7" fill="#202020" />
+  <rect x="118" y="330" width="500" height="134" rx="8" fill="#080808" stroke="#262626" />
+  <rect x="146" y="358" width="440" height="10" rx="5" fill="#2563eb" opacity="0.72" />
+  <rect x="146" y="386" width="380" height="10" rx="5" fill="#3a3a3a" />
+  <rect x="146" y="414" width="408" height="10" rx="5" fill="#3a3a3a" />
+  <rect x="146" y="442" width="296" height="10" rx="5" fill="#3a3a3a" />
+  <circle cx="866" cy="170" r="54" fill="#2563eb" opacity="0.2" />
+  <circle cx="866" cy="302" r="54" fill="#2563eb" opacity="0.2" />
+  <circle cx="866" cy="434" r="54" fill="#2563eb" opacity="0.2" />
+  <circle cx="866" cy="566" r="54" fill="#2563eb" opacity="0.2" />
+  <text x="92" y="668" fill="#2563eb" font-family="JetBrains Mono, monospace" font-size="26" letter-spacing="5">PROJECT_SCREENSHOT_PLACEHOLDER</text>
+  <text x="770" y="140" fill="#f5f5f5" font-family="JetBrains Mono, monospace" font-size="24" letter-spacing="3">TECH SNAPSHOT</text>
+  <text x="770" y="182" fill="#a9a9a9" font-family="JetBrains Mono, monospace" font-size="18" letter-spacing="2">[IMG EDITÁVEL]</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" role="img" aria-label="Placeholder de foto em preto e branco">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f0f0f" />
+      <stop offset="1" stop-color="#060606" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="18%" r="70%">
+      <stop offset="0" stop-color="#2d2d2d" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#0a0a0a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1080" fill="url(#bg)" />
+  <rect width="900" height="1080" fill="url(#glow)" />
+  <g opacity="0.18" stroke="#ffffff" stroke-width="2">
+    <path d="M0 180H900M0 360H900M0 540H900M0 720H900M0 900H900" />
+    <path d="M150 0V1080M300 0V1080M450 0V1080M600 0V1080M750 0V1080" />
+  </g>
+  <g fill="#ffffff" opacity="0.92">
+    <circle cx="450" cy="360" r="126" fill="#eaeaea" opacity="0.95" />
+    <path d="M270 840c18-132 108-208 180-208s162 76 180 208" fill="#d5d5d5" opacity="0.82" />
+    <path d="M345 372c20 48 58 80 105 80s85-32 105-80c11 64 1 114-33 146-24 22-51 34-72 34s-48-12-72-34c-34-32-44-82-33-146Z" fill="#0b0b0b" opacity="0.28" />
+  </g>
+  <g opacity="0.9" fill="none" stroke="#ffffff" stroke-width="4">
+    <path d="M54 54h96M54 54v96" />
+    <path d="M846 54h-96M846 54v96" />
+    <path d="M54 1026h96M54 1026v-96" />
+    <path d="M846 1026h-96M846 1026v-96" />
+  </g>
+  <text x="54" y="101" fill="#2563eb" font-family="JetBrains Mono, monospace" font-size="28" letter-spacing="6">PORTRAIT_PLACEHOLDER</text>
+  <text x="54" y="980" fill="#a8a8a8" font-family="JetBrains Mono, monospace" font-size="24" letter-spacing="4">[FOTO EDITÁVEL]</text>
+</svg>
