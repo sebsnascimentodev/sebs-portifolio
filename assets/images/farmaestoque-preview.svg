@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Farma Estoque - sistema de gerenciamento de estoque para farmácia">
+  <defs>
+    <linearGradient id="febg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05100a"/>
+      <stop offset="1" stop-color="#050709"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="720" fill="url(#febg)"/>
+
+  <!-- Grid -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200M0 640H1200"/>
+    <path d="M80 0V720M160 0V720M240 0V720M320 0V720M400 0V720M480 0V720M560 0V720M640 0V720M720 0V720M800 0V720M880 0V720M960 0V720M1040 0V720M1120 0V720"/>
+  </g>
+
+  <!-- Ambient glow -->
+  <ellipse cx="300" cy="300" rx="320" ry="200" fill="#10b981" opacity="0.022"/>
+  <ellipse cx="950" cy="280" rx="260" ry="180" fill="#f87171" opacity="0.018"/>
+
+  <!-- ── TITLE ── -->
+  <text x="60" y="54" font-family="JetBrains Mono,Consolas,monospace" font-size="30" font-weight="700" fill="#10b981">$</text>
+  <text x="96" y="54" font-family="JetBrains Mono,Consolas,monospace" font-size="30" font-weight="700" fill="#f1f5f9"> farma-estoque</text>
+  <text x="60" y="74" font-family="JetBrains Mono,Consolas,monospace" font-size="12" fill="#334155" letter-spacing="2">// gestão de estoque para farmácia · react + tailwind + java + spring boot + postgresql</text>
+
+  <!-- Status badge -->
+  <rect x="1030" y="38" width="120" height="26" rx="2" fill="rgba(16,185,129,0.07)" stroke="rgba(16,185,129,0.22)"/>
+  <circle cx="1050" cy="51" r="4" fill="#10b981"/>
+  <text x="1062" y="56" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#10b981" letter-spacing="1">ONLINE</text>
+
+  <!-- ══ LEFT: INVENTORY TABLE ══ -->
+  <rect x="48" y="96" width="560" height="392" rx="3" fill="#0a0f0c" stroke="#162a1e"/>
+  <rect x="48" y="96" width="560" height="26" rx="3" fill="#0d1a12"/>
+  <rect x="48" y="119" width="560" height="3" fill="#0a0f0c"/>
+  <text x="68" y="114" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#10b981" letter-spacing="2">INVENTÁRIO · PRODUTOS</text>
+
+  <!-- Table header -->
+  <rect x="64" y="128" width="528" height="22" rx="1" fill="#0d1a12"/>
+  <text x="74"  y="143" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155" letter-spacing="1">PRODUTO</text>
+  <text x="264" y="143" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155" letter-spacing="1">LOTE</text>
+  <text x="334" y="143" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155" letter-spacing="1">VALIDADE</text>
+  <text x="424" y="143" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155" letter-spacing="1">QTD</text>
+  <text x="474" y="143" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155" letter-spacing="1">STATUS</text>
+
+  <!-- Row 1 – expiring soon -->
+  <rect x="64" y="152" width="528" height="26" rx="1" fill="#1a0f0f"/>
+  <text x="74"  y="169" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fca5a5">Dipirona 500mg</text>
+  <text x="264" y="169" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">DP-2408</text>
+  <text x="334" y="169" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f87171">07/2026</text>
+  <text x="430" y="169" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f1f5f9">240</text>
+  <rect x="470" y="156" width="70" height="16" rx="2" fill="rgba(248,113,113,0.12)" stroke="rgba(248,113,113,0.35)"/>
+  <text x="479" y="168" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#f87171">VENCENDO</text>
+
+  <!-- Row 2 – low stock -->
+  <rect x="64" y="180" width="528" height="26" rx="1" fill="#0a0f0c"/>
+  <text x="74"  y="197" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">Amoxicilina 875mg</text>
+  <text x="264" y="197" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">AM-2412</text>
+  <text x="334" y="197" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">03/2027</text>
+  <text x="430" y="197" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24">12</text>
+  <rect x="470" y="184" width="74" height="16" rx="2" fill="rgba(251,191,36,0.1)" stroke="rgba(251,191,36,0.35)"/>
+  <text x="475" y="196" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#fbbf24">ESTQ. BAIXO</text>
+
+  <!-- Row 3 – ok -->
+  <rect x="64" y="208" width="528" height="26" rx="1" fill="#0d1510"/>
+  <text x="74"  y="225" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">Losartana 50mg</text>
+  <text x="264" y="225" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">LO-2501</text>
+  <text x="334" y="225" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">11/2027</text>
+  <text x="430" y="225" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f1f5f9">580</text>
+  <rect x="470" y="212" width="46" height="16" rx="2" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.3)"/>
+  <text x="480" y="224" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#10b981">NORMAL</text>
+
+  <!-- Row 4 – ok -->
+  <rect x="64" y="236" width="528" height="26" rx="1" fill="#0a0f0c"/>
+  <text x="74"  y="253" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">Omeprazol 20mg</text>
+  <text x="264" y="253" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">OM-2503</text>
+  <text x="334" y="253" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">06/2027</text>
+  <text x="430" y="253" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f1f5f9">1.200</text>
+  <rect x="470" y="240" width="46" height="16" rx="2" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.3)"/>
+  <text x="480" y="252" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#10b981">NORMAL</text>
+
+  <!-- Row 5 – expired -->
+  <rect x="64" y="264" width="528" height="26" rx="1" fill="#1a0800"/>
+  <text x="74"  y="281" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#9a3412">Ibuprofeno 600mg</text>
+  <text x="264" y="281" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">IB-2309</text>
+  <text x="334" y="281" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f97316">05/2026</text>
+  <text x="430" y="281" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#9a3412">88</text>
+  <rect x="470" y="268" width="64" height="16" rx="2" fill="rgba(249,115,22,0.12)" stroke="rgba(249,115,22,0.35)"/>
+  <text x="476" y="280" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#f97316">VENCIDO !</text>
+
+  <!-- Row 6 – ok -->
+  <rect x="64" y="292" width="528" height="26" rx="1" fill="#0d1510"/>
+  <text x="74"  y="309" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">Metformina 850mg</text>
+  <text x="264" y="309" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">MF-2502</text>
+  <text x="334" y="309" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">01/2028</text>
+  <text x="430" y="309" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f1f5f9">340</text>
+  <rect x="470" y="296" width="46" height="16" rx="2" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.3)"/>
+  <text x="480" y="308" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#10b981">NORMAL</text>
+
+  <!-- Row 7 – low stock -->
+  <rect x="64" y="320" width="528" height="26" rx="1" fill="#0a0f0c"/>
+  <text x="74"  y="337" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">Atenolol 25mg</text>
+  <text x="264" y="337" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">AT-2411</text>
+  <text x="334" y="337" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">09/2027</text>
+  <text x="430" y="337" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24">7</text>
+  <rect x="470" y="324" width="74" height="16" rx="2" fill="rgba(251,191,36,0.1)" stroke="rgba(251,191,36,0.35)"/>
+  <text x="475" y="336" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#fbbf24">ESTQ. BAIXO</text>
+
+  <!-- Row 8 – ok -->
+  <rect x="64" y="348" width="528" height="26" rx="1" fill="#0d1510"/>
+  <text x="74"  y="365" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">Paracetamol 750mg</text>
+  <text x="264" y="365" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">PC-2504</text>
+  <text x="334" y="365" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">12/2027</text>
+  <text x="430" y="365" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f1f5f9">2.400</text>
+  <rect x="470" y="352" width="46" height="16" rx="2" fill="rgba(16,185,129,0.1)" stroke="rgba(16,185,129,0.3)"/>
+  <text x="480" y="364" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#10b981">NORMAL</text>
+
+  <!-- Row 9 – expiring -->
+  <rect x="64" y="376" width="528" height="26" rx="1" fill="#1a0f0f"/>
+  <text x="74"  y="393" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fca5a5">Vitamina D 2000UI</text>
+  <text x="264" y="393" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">VD-2410</text>
+  <text x="334" y="393" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f87171">08/2026</text>
+  <text x="430" y="393" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f1f5f9">160</text>
+  <rect x="470" y="380" width="70" height="16" rx="2" fill="rgba(248,113,113,0.12)" stroke="rgba(248,113,113,0.35)"/>
+  <text x="479" y="392" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#f87171">VENCENDO</text>
+
+  <!-- Pagination hint -->
+  <text x="64" y="470" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#1e3a28">exibindo 9 de 247 produtos · página 1 de 28</text>
+
+  <!-- Summary bar -->
+  <rect x="64" y="404" width="528" height="54" rx="2" fill="#0d1510" stroke="#162a1e"/>
+  <text x="80" y="422" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155" letter-spacing="1">RESUMO</text>
+  <text x="80" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">total:</text>
+  <text x="118" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f1f5f9">247</text>
+  <text x="178" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#10b981">normais:</text>
+  <text x="244" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#10b981">218</text>
+  <text x="304" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24">baixo estq:</text>
+  <text x="390" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24">14</text>
+  <text x="420" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f87171">vencendo:</text>
+  <text x="502" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f87171">11</text>
+  <text x="528" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f97316">vencidos:</text>
+  <text x="606" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f97316">4</text>
+
+  <!-- ══ RIGHT: ALERTS + STATS ══ -->
+  <rect x="628" y="96" width="524" height="392" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <rect x="628" y="96" width="524" height="26" rx="3" fill="#111827"/>
+  <rect x="628" y="119" width="524" height="3" fill="#0d1117"/>
+  <text x="648" y="114" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#10b981" letter-spacing="2">PAINEL DE CONTROLE</text>
+
+  <!-- Alert panel -->
+  <rect x="644" y="128" width="240" height="200" rx="3" fill="#0a0f0c" stroke="#162a1e"/>
+  <text x="660" y="148" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f87171" letter-spacing="1">⚠ ALERTAS ATIVOS</text>
+
+  <rect x="660" y="156" width="208" height="36" rx="2" fill="#1a0f0f" stroke="rgba(249,115,22,0.3)"/>
+  <text x="674" y="170" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#f97316">VENCIDO</text>
+  <text x="674" y="184" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fca5a5">Ibuprofeno 600mg</text>
+  <text x="808" y="184" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#f97316">05/2026</text>
+
+  <rect x="660" y="198" width="208" height="36" rx="2" fill="#1a0f0f" stroke="rgba(248,113,113,0.25)"/>
+  <text x="674" y="212" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#f87171">VENCENDO</text>
+  <text x="674" y="226" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fca5a5">Dipirona 500mg</text>
+  <text x="814" y="226" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#f87171">07/2026</text>
+
+  <rect x="660" y="240" width="208" height="36" rx="2" fill="#1a1200" stroke="rgba(251,191,36,0.25)"/>
+  <text x="674" y="254" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#fbbf24">ESTOQUE BAIXO</text>
+  <text x="674" y="268" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fde68a">Amoxicilina 875mg</text>
+  <text x="822" y="268" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#fbbf24">12 un</text>
+
+  <rect x="660" y="282" width="208" height="36" rx="2" fill="#1a1200" stroke="rgba(251,191,36,0.2)"/>
+  <text x="674" y="296" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#fbbf24">ESTOQUE BAIXO</text>
+  <text x="674" y="310" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fde68a">Atenolol 25mg</text>
+  <text x="822" y="310" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#fbbf24">7 un</text>
+
+  <!-- Stats col -->
+  <rect x="896" y="128" width="240" height="70" rx="3" fill="#0a0f0c" stroke="#162a1e"/>
+  <text x="916" y="148" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#10b981" letter-spacing="1">total de produtos</text>
+  <text x="916" y="178" font-family="JetBrains Mono,Consolas,monospace" font-size="30" font-weight="700" fill="#f1f5f9">247</text>
+
+  <rect x="896" y="208" width="240" height="70" rx="3" fill="#0a0f0c" stroke="#162a1e"/>
+  <text x="916" y="228" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24" letter-spacing="1">valor em estoque</text>
+  <text x="916" y="258" font-family="JetBrains Mono,Consolas,monospace" font-size="22" font-weight="700" fill="#f1f5f9">R$84.320</text>
+
+  <rect x="896" y="288" width="240" height="44" rx="3" fill="#0a0f0c" stroke="#162a1e"/>
+  <text x="916" y="308" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f87171" letter-spacing="1">reposição pendente</text>
+  <text x="916" y="324" font-family="JetBrains Mono,Consolas,monospace" font-size="20" font-weight="700" fill="#f1f5f9">14 itens</text>
+
+  <!-- Mini line chart: stock movement -->
+  <rect x="644" y="338" width="492" height="142" rx="3" fill="#0a0f0c" stroke="#162a1e"/>
+  <text x="664" y="358" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#334155" letter-spacing="1">MOVIMENTAÇÃO MENSAL (ENTRADAS vs SAÍDAS)</text>
+
+  <!-- Chart area -->
+  <line x1="680" y1="364" x2="680" y2="458" stroke="#162a1e" stroke-width="1"/>
+  <line x1="680" y1="458" x2="1120" y2="458" stroke="#162a1e" stroke-width="1"/>
+  <line x1="680" y1="374" x2="1120" y2="374" stroke="#162a1e" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="680" y1="400" x2="1120" y2="400" stroke="#162a1e" stroke-width="0.5" stroke-dasharray="4,4"/>
+  <line x1="680" y1="426" x2="1120" y2="426" stroke="#162a1e" stroke-width="0.5" stroke-dasharray="4,4"/>
+
+  <text x="656" y="377" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#334155">300</text>
+  <text x="656" y="403" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#334155">200</text>
+  <text x="656" y="429" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#334155">100</text>
+  <text x="662" y="458" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#334155">  0</text>
+
+  <!-- Entradas line (green) -->
+  <polyline points="700,430 760,416 820,404 880,394 940,386 1000,378 1060,374 1100,380"
+    stroke="#10b981" stroke-width="2" fill="none" opacity="0.8"/>
+  <!-- Area fill -->
+  <polygon points="700,430 760,416 820,404 880,394 940,386 1000,378 1060,374 1100,380 1100,458 700,458"
+    fill="#10b981" opacity="0.07"/>
+
+  <!-- Saídas line (red) -->
+  <polyline points="700,440 760,432 820,424 880,420 940,428 1000,416 1060,420 1100,412"
+    stroke="#f87171" stroke-width="2" fill="none" opacity="0.7"/>
+  <polygon points="700,440 760,432 820,424 880,420 940,428 1000,416 1060,420 1100,412 1100,458 700,458"
+    fill="#f87171" opacity="0.05"/>
+
+  <!-- Data points -->
+  <circle cx="1100" cy="380" r="3" fill="#10b981"/>
+  <circle cx="1100" cy="412" r="3" fill="#f87171"/>
+
+  <!-- Month labels -->
+  <g font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#334155">
+    <text x="692" y="470">Jan</text>
+    <text x="752" y="470">Fev</text>
+    <text x="812" y="470">Mar</text>
+    <text x="872" y="470">Abr</text>
+    <text x="932" y="470">Mai</text>
+    <text x="992" y="470">Jun</text>
+    <text x="1052" y="470">Jul</text>
+    <text x="1092" y="470">Ago</text>
+  </g>
+
+  <!-- Legend -->
+  <line x1="664" y1="480" x2="684" y2="480" stroke="#10b981" stroke-width="2"/>
+  <text x="688" y="484" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#10b981">entradas</text>
+  <line x1="754" y1="480" x2="774" y2="480" stroke="#f87171" stroke-width="2"/>
+  <text x="778" y="484" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#f87171">saídas</text>
+
+  <!-- ══ METRICS BAR ══ -->
+  <rect x="0" y="498" width="1200" height="1" fill="#162a1e"/>
+  <rect x="0" y="499" width="1200" height="221" fill="#050709"/>
+
+  <text x="60" y="530" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#0f2018" letter-spacing="2">// métricas · react + tailwind + java + spring boot + postgresql</text>
+
+  <rect x="60" y="544" width="310" height="74" rx="3" fill="#0a0f0c" stroke="#162a1e"/>
+  <text x="80" y="564" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#10b981" letter-spacing="1">produtos.cadastrados</text>
+  <text x="80" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="28" font-weight="700" fill="#f1f5f9">247</text>
+  <text x="166" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#10b981">↑ +18 este mês</text>
+
+  <rect x="390" y="544" width="310" height="74" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="410" y="564" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#f87171" letter-spacing="1">alertas.pendentes</text>
+  <text x="410" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="28" font-weight="700" fill="#f1f5f9">29</text>
+  <text x="454" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#f87171">requer ação</text>
+
+  <rect x="720" y="544" width="420" height="74" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="740" y="564" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24" letter-spacing="1">economia.desvio.evitada</text>
+  <text x="740" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="28" font-weight="700" fill="#f1f5f9">R$12.400</text>
+  <text x="900" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#64748b">em produtos vencidos bloqueados</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="638" width="1200" height="82" fill="#030508"/>
+  <rect x="0" y="638" width="1200" height="1" fill="#162a1e"/>
+  <text x="60" y="676" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#0f2018" letter-spacing="2">REACT · TAILWINDCSS · TYPESCRIPT · JAVA · SPRING BOOT · POSTGRESQL · DOCKER</text>
+  <text x="60" y="702" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#0a1a10" letter-spacing="1">github.com/sebsnascimentodev/farmaestoque</text>
+</svg>
