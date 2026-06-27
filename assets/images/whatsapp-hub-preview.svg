@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="WhatsApp Automation Hub - conversational AI platform diagram">
+  <defs>
+    <linearGradient id="wabg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070c0a"/>
+      <stop offset="1" stop-color="#050709"/>
+    </linearGradient>
+    <linearGradient id="wabubble" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b2016"/>
+      <stop offset="1" stop-color="#091a10"/>
+    </linearGradient>
+    <marker id="wa-arr" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#25d366" opacity="0.6"/>
+    </marker>
+    <marker id="wa-arr-b" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#2563eb" opacity="0.65"/>
+    </marker>
+    <marker id="wa-arr-p" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#818cf8" opacity="0.6"/>
+    </marker>
+    <marker id="wa-arr-dim" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="720" fill="url(#wabg)"/>
+
+  <!-- Grid -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200M0 640H1200"/>
+    <path d="M80 0V720M160 0V720M240 0V720M320 0V720M400 0V720M480 0V720M560 0V720M640 0V720M720 0V720M800 0V720M880 0V720M960 0V720M1040 0V720M1120 0V720"/>
+  </g>
+
+  <!-- Green ambient glow -->
+  <ellipse cx="300" cy="280" rx="320" ry="200" fill="#25d366" opacity="0.025"/>
+  <ellipse cx="900" cy="280" rx="280" ry="180" fill="#2563eb" opacity="0.03"/>
+
+  <!-- ── TITLE ── -->
+  <text x="60" y="54" font-family="JetBrains Mono,Consolas,monospace" font-size="30" font-weight="700" fill="#25d366">$</text>
+  <text x="96" y="54" font-family="JetBrains Mono,Consolas,monospace" font-size="30" font-weight="700" fill="#f1f5f9"> whatsapp-automation-hub</text>
+  <text x="60" y="74" font-family="JetBrains Mono,Consolas,monospace" font-size="12" fill="#334155" letter-spacing="2">// conversational AI platform · python + n8n + llm + whatsapp api</text>
+
+  <!-- Status badge -->
+  <rect x="1030" y="38" width="120" height="26" rx="2" fill="rgba(37,211,102,0.07)" stroke="rgba(37,211,102,0.22)"/>
+  <circle cx="1050" cy="51" r="4" fill="#25d366"/>
+  <text x="1062" y="56" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#25d366" letter-spacing="1">ONLINE</text>
+
+  <!-- ══════════════ LEFT: INCOMING MESSAGES ══════════════ -->
+  <rect x="48" y="96" width="242" height="390" rx="3" fill="#0a0f0c" stroke="#1a2e22"/>
+  <rect x="48" y="96" width="242" height="26" rx="3" fill="#0d1a11"/>
+  <rect x="48" y="119" width="242" height="3" fill="#0a0f0c"/>
+  <text x="68" y="114" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#25d366" letter-spacing="2">INCOMING MESSAGES</text>
+
+  <!-- WhatsApp section label -->
+  <rect x="64" y="130" width="100" height="18" rx="2" fill="rgba(37,211,102,0.08)" stroke="rgba(37,211,102,0.2)"/>
+  <text x="74" y="143" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#25d366" letter-spacing="1">WHATSAPP</text>
+
+  <!-- WA message bubbles -->
+  <rect x="64" y="156" width="192" height="34" rx="3" fill="url(#wabubble)" stroke="rgba(37,211,102,0.15)"/>
+  <text x="78" y="170" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">Usuário</text>
+  <text x="78" y="184" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#d1fae5">Quero agendar uma reunião</text>
+
+  <rect x="64" y="198" width="192" height="34" rx="3" fill="url(#wabubble)" stroke="rgba(37,211,102,0.15)"/>
+  <text x="78" y="212" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">Usuário</text>
+  <text x="78" y="226" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#d1fae5">Qual o horário disponível?</text>
+
+  <rect x="64" y="240" width="192" height="34" rx="3" fill="url(#wabubble)" stroke="rgba(37,211,102,0.12)"/>
+  <text x="78" y="254" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">Usuário</text>
+  <text x="78" y="268" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#6b7280">Preciso de suporte técnico</text>
+
+  <!-- Teams section label -->
+  <rect x="64" y="288" width="66" height="18" rx="2" fill="rgba(129,140,248,0.08)" stroke="rgba(129,140,248,0.2)"/>
+  <text x="74" y="301" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#818cf8" letter-spacing="1">TEAMS</text>
+
+  <!-- Teams message bubbles -->
+  <rect x="64" y="314" width="192" height="34" rx="3" fill="#0d0f1a" stroke="rgba(129,140,248,0.15)"/>
+  <text x="78" y="328" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">Colaborador</text>
+  <text x="78" y="342" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#c7d2fe">Deploy falhou no pipeline</text>
+
+  <rect x="64" y="356" width="192" height="34" rx="3" fill="#0d0f1a" stroke="rgba(129,140,248,0.15)"/>
+  <text x="78" y="370" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8">Colaborador</text>
+  <text x="78" y="384" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#c7d2fe">Qual env está com erro?</text>
+
+  <!-- Meta API badge -->
+  <rect x="64" y="404" width="210" height="68" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="80" y="422" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b" letter-spacing="1">META API OFICIAL</text>
+  <text x="80" y="442" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#475569">webhook verified ✓</text>
+  <text x="80" y="458" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#475569">business account: active</text>
+  <text x="80" y="474" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#334155">rate: 1000 msg/s · tier: standard</text>
+
+  <!-- Arrows incoming → N8N -->
+  <line x1="290" y1="200" x2="356" y2="200" stroke="#25d366" stroke-width="1.5" opacity="0.45" marker-end="url(#wa-arr)"/>
+  <line x1="290" y1="340" x2="356" y2="280" stroke="#818cf8" stroke-width="1.5" opacity="0.4" marker-end="url(#wa-arr-p)"/>
+  <circle cx="323" cy="200" r="3" fill="#25d366" opacity="0.6"/>
+  <circle cx="323" cy="340" r="3" fill="#818cf8" opacity="0.6"/>
+
+  <!-- ══════════════ CENTER: N8N WORKFLOW ══════════════ -->
+  <rect x="360" y="96" width="214" height="390" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <rect x="360" y="96" width="214" height="26" rx="3" fill="#111827"/>
+  <rect x="360" y="119" width="214" height="3" fill="#0d1117"/>
+  <text x="380" y="114" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#6688bb" letter-spacing="2">N8N WORKFLOW</text>
+
+  <!-- N8N nodes -->
+  <!-- Webhook trigger -->
+  <rect x="378" y="130" width="178" height="44" rx="3" fill="#0a1628" stroke="#1e3a5f"/>
+  <rect x="378" y="130" width="6" height="44" rx="3" fill="#2563eb"/>
+  <text x="394" y="148" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#60a5fa">WEBHOOK TRIGGER</text>
+  <text x="394" y="164" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155">POST /webhook/message</text>
+  <line x1="467" y1="174" x2="467" y2="186" stroke="#2563eb" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr-b)"/>
+
+  <!-- Router -->
+  <rect x="378" y="190" width="178" height="44" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <rect x="378" y="190" width="6" height="44" rx="3" fill="#f97316"/>
+  <text x="394" y="208" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fb923c">MESSAGE ROUTER</text>
+  <text x="394" y="224" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155">channel · intent · priority</text>
+  <line x1="467" y1="234" x2="467" y2="246" stroke="#f97316" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr-dim)"/>
+
+  <!-- Intent classifier -->
+  <rect x="378" y="250" width="178" height="44" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <rect x="378" y="250" width="6" height="44" rx="3" fill="#a855f7"/>
+  <text x="394" y="268" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#c084fc">INTENT CLASSIFIER</text>
+  <text x="394" y="284" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155">schedule · support · faq · other</text>
+  <line x1="467" y1="294" x2="467" y2="306" stroke="#a855f7" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr-dim)"/>
+
+  <!-- LLM Engine -->
+  <rect x="378" y="310" width="178" height="56" rx="3" fill="#0a1117" stroke="#2563eb" stroke-opacity="0.35"/>
+  <rect x="378" y="310" width="6" height="56" rx="3" fill="#2563eb"/>
+  <text x="394" y="328" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#60a5fa">LLM ENGINE</text>
+  <rect x="394" y="334" width="60" height="16" rx="2" fill="rgba(37,99,235,0.1)" stroke="rgba(37,99,235,0.3)"/>
+  <text x="402" y="345" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#93c5fd">CLAUDE API</text>
+  <text x="394" y="360" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155">ctx-aware · RAG · fallback</text>
+  <line x1="467" y1="366" x2="467" y2="378" stroke="#2563eb" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr-b)"/>
+
+  <!-- Response builder -->
+  <rect x="378" y="382" width="178" height="44" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <rect x="378" y="382" width="6" height="44" rx="3" fill="#25d366"/>
+  <text x="394" y="400" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#4ade80">RESPONSE BUILDER</text>
+  <text x="394" y="416" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#334155">format · template · dispatch</text>
+  <line x1="467" y1="426" x2="467" y2="438" stroke="#25d366" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr-dim)"/>
+
+  <!-- Dispatcher -->
+  <rect x="378" y="442" width="178" height="32" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="394" y="463" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">CHANNEL DISPATCHER</text>
+
+  <!-- Arrow N8N → Responses -->
+  <line x1="574" y1="240" x2="634" y2="200" stroke="#2563eb" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr-b)"/>
+  <line x1="574" y1="340" x2="634" y2="320" stroke="#2563eb" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr-b)"/>
+  <line x1="574" y1="460" x2="634" y2="440" stroke="#25d366" stroke-width="1.4" opacity="0.4" marker-end="url(#wa-arr)"/>
+
+  <!-- ══════════════ RIGHT: BOT RESPONSES ══════════════ -->
+  <rect x="638" y="96" width="248" height="390" rx="3" fill="#0a0f0c" stroke="#1a2e22"/>
+  <rect x="638" y="96" width="248" height="26" rx="3" fill="#0d1a11"/>
+  <rect x="638" y="119" width="248" height="3" fill="#0a0f0c"/>
+  <text x="658" y="114" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#25d366" letter-spacing="2">BOT RESPONSES</text>
+
+  <!-- WA response label -->
+  <rect x="654" y="130" width="100" height="18" rx="2" fill="rgba(37,211,102,0.08)" stroke="rgba(37,211,102,0.2)"/>
+  <text x="664" y="143" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#25d366" letter-spacing="1">WHATSAPP ↗</text>
+
+  <!-- Bot bubble WA -->
+  <rect x="654" y="156" width="214" height="56" rx="3" fill="#0d1a11" stroke="rgba(37,211,102,0.18)"/>
+  <text x="668" y="172" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#4ade80">🤖 Bot</text>
+  <text x="668" y="190" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">Olá! Tenho os seguintes horários</text>
+  <text x="668" y="205" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#d1fae5">disponíveis para esta semana…</text>
+
+  <!-- Bot bubble WA 2 -->
+  <rect x="654" y="222" width="214" height="44" rx="3" fill="#0d1a11" stroke="rgba(37,211,102,0.12)"/>
+  <text x="668" y="238" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#4ade80">🤖 Bot</text>
+  <text x="668" y="256" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#6b7280">Redirecionando para suporte…</text>
+
+  <!-- Teams response label -->
+  <rect x="654" y="280" width="66" height="18" rx="2" fill="rgba(129,140,248,0.08)" stroke="rgba(129,140,248,0.2)"/>
+  <text x="664" y="293" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#818cf8" letter-spacing="1">TEAMS ↗</text>
+
+  <!-- Bot bubble Teams -->
+  <rect x="654" y="306" width="214" height="56" rx="3" fill="#0d0f1a" stroke="rgba(129,140,248,0.18)"/>
+  <text x="668" y="322" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#818cf8">🤖 Bot</text>
+  <text x="668" y="340" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#c7d2fe">O pipeline falhou no step</text>
+  <text x="668" y="356" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#c7d2fe">build-docker. Logs em #devops.</text>
+
+  <!-- Bot bubble Teams 2 -->
+  <rect x="654" y="372" width="214" height="44" rx="3" fill="#0d0f1a" stroke="rgba(129,140,248,0.12)"/>
+  <text x="668" y="388" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#818cf8">🤖 Bot</text>
+  <text x="668" y="406" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#6b7280">Checando env production…</text>
+
+  <!-- Human handoff -->
+  <rect x="654" y="428" width="214" height="46" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="668" y="446" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24">⚡ HUMAN HANDOFF</text>
+  <text x="668" y="462" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#475569">confidence &lt; 0.72 → agent queue</text>
+
+  <!-- ══════════════ FAR RIGHT: STATS ══════════════ -->
+  <rect x="906" y="96" width="246" height="390" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <rect x="906" y="96" width="246" height="26" rx="3" fill="#111827"/>
+  <rect x="906" y="119" width="246" height="3" fill="#0d1117"/>
+  <text x="926" y="114" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#6688bb" letter-spacing="2">LIVE STATS</text>
+
+  <!-- Active sessions -->
+  <rect x="922" y="130" width="214" height="56" rx="3" fill="#0a0f0c" stroke="#1a2e22"/>
+  <text x="938" y="148" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#25d366" letter-spacing="1">active sessions</text>
+  <text x="938" y="174" font-family="JetBrains Mono,Consolas,monospace" font-size="26" font-weight="700" fill="#f1f5f9">247</text>
+  <circle cx="1094" cy="158" r="6" fill="#25d366" opacity="0.8"/>
+  <circle cx="1094" cy="158" r="10" fill="#25d366" opacity="0.2"/>
+
+  <!-- Resolved today -->
+  <rect x="922" y="196" width="214" height="56" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="938" y="214" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#60a5fa" letter-spacing="1">resolved today</text>
+  <text x="938" y="240" font-family="JetBrains Mono,Consolas,monospace" font-size="26" font-weight="700" fill="#f1f5f9">1,024</text>
+
+  <!-- Avg response -->
+  <rect x="922" y="262" width="214" height="56" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="938" y="280" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24" letter-spacing="1">avg response time</text>
+  <text x="938" y="306" font-family="JetBrains Mono,Consolas,monospace" font-size="26" font-weight="700" fill="#f1f5f9">1.2s</text>
+
+  <!-- Resolution rate -->
+  <rect x="922" y="328" width="214" height="56" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="938" y="346" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#a78bfa" letter-spacing="1">AI resolution rate</text>
+  <text x="938" y="372" font-family="JetBrains Mono,Consolas,monospace" font-size="26" font-weight="700" fill="#f1f5f9">94.3%</text>
+
+  <!-- Channel breakdown -->
+  <rect x="922" y="394" width="214" height="80" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="938" y="412" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b" letter-spacing="1">channel breakdown</text>
+  <!-- WA bar -->
+  <text x="938" y="432" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#25d366">WA</text>
+  <rect x="966" y="422" width="144" height="8" rx="2" fill="#1a2e22"/>
+  <rect x="966" y="422" width="104" height="8" rx="2" fill="#25d366" opacity="0.7"/>
+  <text x="1116" y="432" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#475569">72%</text>
+  <!-- Teams bar -->
+  <text x="938" y="454" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#818cf8">MS</text>
+  <rect x="966" y="444" width="144" height="8" rx="2" fill="#1a1a2e"/>
+  <rect x="966" y="444" width="40" height="8" rx="2" fill="#818cf8" opacity="0.7"/>
+  <text x="1116" y="454" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#475569">28%</text>
+  <!-- Python badge -->
+  <rect x="922" y="480" width="100" height="18" rx="2" fill="rgba(250,204,21,0.06)" stroke="rgba(250,204,21,0.2)"/>
+  <text x="932" y="493" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#fbbf24" letter-spacing="1">PYTHON BACKEND</text>
+
+  <!-- ══════════════ METRICS BAR ══════════════ -->
+  <rect x="0" y="498" width="1200" height="1" fill="#1a2e22"/>
+  <rect x="0" y="499" width="1200" height="221" fill="#050a07"/>
+
+  <text x="60" y="530" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#1a3020" letter-spacing="2">// SESSION METRICS · python + n8n orchestration</text>
+
+  <!-- Metric 1 -->
+  <rect x="60" y="544" width="310" height="74" rx="3" fill="#0a0f0c" stroke="#1a2e22"/>
+  <text x="80" y="564" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#25d366" letter-spacing="1">messages.processed.today</text>
+  <text x="80" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="28" font-weight="700" fill="#f1f5f9">1,247</text>
+  <text x="200" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#25d366">↑ +38/hr</text>
+
+  <!-- Metric 2 -->
+  <rect x="390" y="544" width="310" height="74" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="410" y="564" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#fbbf24" letter-spacing="1">llm.inference.latency (p95)</text>
+  <text x="410" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="28" font-weight="700" fill="#f1f5f9">840ms</text>
+  <text x="530" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#64748b">p99: 1.4s</text>
+
+  <!-- Metric 3 -->
+  <rect x="720" y="544" width="420" height="74" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="740" y="564" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#a78bfa" letter-spacing="1">handoff.rate (human escalation)</text>
+  <text x="740" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="28" font-weight="700" fill="#f1f5f9">5.7%</text>
+  <text x="820" y="596" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#64748b">confidence threshold: 0.72</text>
+  <polyline points="1010,608 1028,618 1044,600 1062,612 1080,598 1100,608 1120,596" stroke="#a78bfa" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <circle cx="1120" cy="596" r="3" fill="#a78bfa" opacity="0.8"/>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="638" width="1200" height="82" fill="#030806"/>
+  <rect x="0" y="638" width="1200" height="1" fill="#1a2e22"/>
+  <text x="60" y="676" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#1a3020" letter-spacing="2">PYTHON · N8N WORKFLOW · WHATSAPP CLOUD API · TEAMS BOT FRAMEWORK · LLM · DOCKER · REDIS</text>
+  <text x="60" y="702" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#0f2018" letter-spacing="1">github.com/sebsnascimentodev/whatsapp-automation-hub</text>
+</svg>
