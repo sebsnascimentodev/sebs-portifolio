@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-label="Desafio Cross Trans - landing page de treino e mentoria para homens trans e pessoas transmasculinas">
+  <defs>
+    <linearGradient id="ctbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0710"/>
+      <stop offset="1" stop-color="#05070b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="720" fill="url(#ctbg)"/>
+
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <path d="M0 80H1200M0 160H1200M0 240H1200M0 320H1200M0 400H1200M0 480H1200M0 560H1200M0 640H1200"/>
+    <path d="M80 0V720M160 0V720M240 0V720M320 0V720M400 0V720M480 0V720M560 0V720M640 0V720M720 0V720M800 0V720M880 0V720M960 0V720M1040 0V720M1120 0V720"/>
+  </g>
+
+  <ellipse cx="280" cy="260" rx="300" ry="200" fill="#2563eb" opacity="0.03"/>
+  <ellipse cx="960" cy="480" rx="280" ry="190" fill="#7dd3c0" opacity="0.02"/>
+
+  <!-- TITLE -->
+  <text x="60" y="54" font-family="JetBrains Mono,Consolas,monospace" font-size="30" font-weight="700" fill="#2563eb">$</text>
+  <text x="96" y="54" font-family="JetBrains Mono,Consolas,monospace" font-size="30" font-weight="700" fill="#f1f5f9"> desafio-cross-trans</text>
+  <text x="60" y="74" font-family="JetBrains Mono,Consolas,monospace" font-size="12" fill="#334155" letter-spacing="2">// landing page de conversão · react + vite + css modules</text>
+
+  <rect x="1030" y="38" width="120" height="26" rx="2" fill="rgba(37,99,235,0.08)" stroke="rgba(37,99,235,0.25)"/>
+  <circle cx="1050" cy="51" r="4" fill="#2563eb"/>
+  <text x="1062" y="56" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#2563eb" letter-spacing="1">ONLINE</text>
+
+  <!-- BROWSER FRAME -->
+  <rect x="60" y="96" width="1080" height="560" rx="6" fill="#0a0d12" stroke="#1e293b"/>
+  <rect x="60" y="96" width="1080" height="34" rx="6" fill="#0f1420"/>
+  <rect x="60" y="122" width="1080" height="8" fill="#0a0d12"/>
+  <circle cx="84" cy="113" r="5" fill="#334155"/>
+  <circle cx="102" cy="113" r="5" fill="#334155"/>
+  <circle cx="120" cy="113" r="5" fill="#334155"/>
+  <rect x="150" y="103" width="500" height="20" rx="4" fill="#1e293b"/>
+  <text x="164" y="117" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#64748b">sebsnascimentodev.github.io/desafio-cross-trans</text>
+
+  <!-- NAVBAR -->
+  <rect x="60" y="130" width="1080" height="46" fill="#0d1117"/>
+  <text x="88" y="158" font-family="JetBrains Mono,Consolas,monospace" font-size="14" font-weight="700" fill="#f1f5f9">Desafio Cross Trans</text>
+  <g font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#94a3b8" letter-spacing="1">
+    <text x="700" y="157">PARA QUEM É</text>
+    <text x="822" y="157">RESULTADOS</text>
+    <text x="932" y="157">PLANOS</text>
+  </g>
+  <rect x="1006" y="142" width="114" height="22" rx="3" fill="#22c55e"/>
+  <text x="1020" y="157" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#052e13">WHATSAPP ↗</text>
+
+  <!-- HERO -->
+  <rect x="60" y="176" width="1080" height="176" fill="#080b10"/>
+  <text x="96" y="222" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#2563eb" letter-spacing="2">// TREINO E MENTORIA PARA HOMENS TRANS</text>
+  <text x="96" y="260" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#f1f5f9">Seu corpo, seu tempo,</text>
+  <text x="96" y="292" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#2563eb">acompanhamento de verdade.</text>
+  <text x="96" y="316" font-family="Inter,sans-serif" font-size="11" fill="#64748b">Masculinização do físico com plano individual: peitoral, abdômen e ganho de massa magra.</text>
+  <rect x="96" y="330" width="190" height="30" rx="3" fill="#22c55e"/>
+  <text x="112" y="350" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#052e13">FALAR NO WHATSAPP ↗</text>
+
+  <!-- Before/After mock -->
+  <rect x="760" y="192" width="120" height="140" rx="3" fill="#111827" stroke="#1e293b"/>
+  <rect x="760" y="192" width="120" height="20" fill="#0d1117"/>
+  <text x="772" y="206" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#64748b" letter-spacing="1">ANTES</text>
+  <rect x="772" y="222" width="96" height="98" rx="2" fill="#1e293b"/>
+  <rect x="896" y="192" width="120" height="140" rx="3" fill="#111827" stroke="rgba(37,99,235,0.35)"/>
+  <rect x="896" y="192" width="120" height="20" fill="#0d1117"/>
+  <text x="906" y="206" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#2563eb" letter-spacing="1">DEPOIS</text>
+  <rect x="908" y="222" width="96" height="98" rx="2" fill="#1e3a5f"/>
+  <text x="760" y="344" font-family="JetBrains Mono,Consolas,monospace" font-size="8" fill="#334155">*fotos com máscara de privacidade</text>
+
+  <!-- PARA QUEM É + O QUE VOCÊ RECEBE cards -->
+  <text x="96" y="392" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#2563eb" letter-spacing="2">PARA QUEM É · O QUE VOCÊ RECEBE</text>
+
+  <rect x="96" y="404" width="326" height="118" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <circle cx="122" cy="430" r="10" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.4)"/>
+  <text x="140" y="434" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#f1f5f9">Treino individualizado</text>
+  <text x="118" y="460" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Plano ajustado ao seu momento de</text>
+  <text x="118" y="474" font-family="Inter,sans-serif" font-size="9" fill="#64748b">transição e aos seus objetivos.</text>
+
+  <rect x="438" y="404" width="326" height="118" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <circle cx="464" cy="430" r="10" fill="rgba(34,197,94,0.12)" stroke="rgba(34,197,94,0.4)"/>
+  <text x="482" y="434" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#f1f5f9">Acompanhamento próximo</text>
+  <text x="460" y="460" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Ajustes semanais e suporte direto</text>
+  <text x="460" y="474" font-family="Inter,sans-serif" font-size="9" fill="#64748b">via WhatsApp.</text>
+
+  <rect x="780" y="404" width="328" height="118" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <circle cx="806" cy="430" r="10" fill="rgba(37,99,235,0.12)" stroke="rgba(37,99,235,0.4)"/>
+  <text x="824" y="434" font-family="Inter,sans-serif" font-size="12" font-weight="600" fill="#f1f5f9">Comunidade e depoimentos</text>
+  <text x="802" y="460" font-family="Inter,sans-serif" font-size="9" fill="#64748b">Resultados reais de quem já</text>
+  <text x="802" y="474" font-family="Inter,sans-serif" font-size="9" fill="#64748b">passou pelo programa.</text>
+
+  <!-- PLANOS strip -->
+  <rect x="96" y="540" width="1012" height="90" rx="3" fill="#0d1117" stroke="#1e293b"/>
+  <text x="116" y="562" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#2563eb" letter-spacing="2">PLANOS · COMO FUNCIONA · DÚVIDAS</text>
+  <rect x="116" y="576" width="220" height="38" rx="3" fill="#111827" stroke="#1e293b"/>
+  <text x="132" y="591" font-family="Inter,sans-serif" font-size="10" fill="#f1f5f9">Plano Mensal</text>
+  <text x="132" y="605" font-family="Inter,sans-serif" font-size="9" fill="#64748b">acompanhamento contínuo</text>
+  <rect x="352" y="576" width="220" height="38" rx="3" fill="#111827" stroke="rgba(37,99,235,0.35)"/>
+  <text x="368" y="591" font-family="Inter,sans-serif" font-size="10" fill="#f1f5f9">Plano Trimestral</text>
+  <text x="368" y="605" font-family="Inter,sans-serif" font-size="9" fill="#2563eb">mais escolhido</text>
+  <rect x="748" y="580" width="140" height="30" rx="3" fill="rgba(34,197,94,0.12)" stroke="rgba(34,197,94,0.35)"/>
+  <text x="764" y="600" font-family="JetBrains Mono,Consolas,monospace" font-size="9" fill="#22c55e">QUERO COMEÇAR ↗</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="656" width="1200" height="1" fill="#162032"/>
+  <text x="60" y="686" font-family="JetBrains Mono,Consolas,monospace" font-size="11" fill="#111a2b" letter-spacing="2">REACT 19 · VITE · CSS MODULES · OXLINT</text>
+  <text x="60" y="704" font-family="JetBrains Mono,Consolas,monospace" font-size="10" fill="#0c1420" letter-spacing="1">github.com/sebsnascimentodev/desafio-cross-trans</text>
+</svg>
